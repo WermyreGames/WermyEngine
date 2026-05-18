@@ -1,0 +1,13 @@
+C:\Users\nithi\Desktop\codingProjects\WermyEngine\bin\Debug\net10.0\WermyEngine.deps.json
+C:\Users\nithi\Desktop\codingProjects\WermyEngine\bin\Debug\net10.0\WermyEngine.dll
+C:\Users\nithi\Desktop\codingProjects\WermyEngine\bin\Debug\net10.0\WermyEngine.pdb
+C:\Users\nithi\Desktop\codingProjects\WermyEngine\obj\Debug\net10.0\WermyEngine.csproj.AssemblyReference.cache
+C:\Users\nithi\Desktop\codingProjects\WermyEngine\obj\Debug\net10.0\WermyEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nithi\Desktop\codingProjects\WermyEngine\obj\Debug\net10.0\WermyEngine.AssemblyInfoInputs.cache
+C:\Users\nithi\Desktop\codingProjects\WermyEngine\obj\Debug\net10.0\WermyEngine.AssemblyInfo.cs
+C:\Users\nithi\Desktop\codingProjects\WermyEngine\obj\Debug\net10.0\WermyEngine.csproj.CoreCompileInputs.cache
+C:\Users\nithi\Desktop\codingProjects\WermyEngine\obj\Debug\net10.0\WermyEngine.sourcelink.json
+C:\Users\nithi\Desktop\codingProjects\WermyEngine\obj\Debug\net10.0\WermyEngine.dll
+C:\Users\nithi\Desktop\codingProjects\WermyEngine\obj\Debug\net10.0\refint\WermyEngine.dll
+C:\Users\nithi\Desktop\codingProjects\WermyEngine\obj\Debug\net10.0\WermyEngine.pdb
+C:\Users\nithi\Desktop\codingProjects\WermyEngine\obj\Debug\net10.0\ref\WermyEngine.dll

@@ -1,0 +1,30 @@
+name: Publish NuGet Package
+
+on:
+  push:
+    tags:
+      - 'v*'   # triggers on tags like v1.0.0, v1.0.1, etc.
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.x'
+
+      - name: Pack
+        run: dotnet pack --configuration Release --output nupkgs
+
+      - name: Push to GitHub Packages
+        run: >
+          dotnet nuget push nupkgs/*.nupkg
+          --source "https://nuget.pkg.github.com/nithinvadakken/index.json"
+          --api-key ${{ secrets.GITHUB_TOKEN }}
+          --skip-duplicate
