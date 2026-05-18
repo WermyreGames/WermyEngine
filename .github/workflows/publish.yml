@@ -23,10 +23,11 @@ jobs:
         run: dotnet pack --configuration Release --output nupkgs
 
       - name: Push to GitHub Packages
-        env:
-          NUGET_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
         run: |
-          dotnet nuget push nupkgs/*.nupkg \
-            --source "https://nuget.pkg.github.com/nithinvadakken/index.json" \
-            --api-key "$NUGET_AUTH_TOKEN" \
-            --skip-duplicate
+          dotnet nuget add source \
+            --username nithinvadakken \
+            --password ${{ secrets.PACKAGES_TOKEN }} \
+            --store-password-in-clear-text \
+            --name github \
+            "https://nuget.pkg.github.com/nithinvadakken/index.json"
+          dotnet nuget push nupkgs/*.nupkg --source "github" --skip-duplicate
