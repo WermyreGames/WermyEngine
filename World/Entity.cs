@@ -1,7 +1,7 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace WermyEngine.Overworld;
+namespace WermyEngine.World;
 
 /// <summary>
 /// Base class for all overworld objects (player, NPCs, items).

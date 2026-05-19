@@ -1,6 +1,6 @@
 using Microsoft.Xna.Framework;
 
-namespace WermyEngine.Overworld;
+namespace WermyEngine.World;
 
 /// <summary>
 /// A stationary NPC that can be talked to by the player.

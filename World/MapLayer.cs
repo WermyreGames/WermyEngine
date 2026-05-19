@@ -1,9 +1,9 @@
-namespace WermyEngine.Overworld;
+namespace WermyEngine.World;
 
 /// <summary>
 /// A single 2D layer of tile references.
 /// Cells are <see langword="null"/> where the layer is transparent (no tile drawn,
-/// no walkability contributed). Stack multiple layers in <see cref="OverworldMap"/>
+/// no walkability contributed). Stack multiple layers in <see cref="TileMap"/>
 /// to build ground, decoration, and collision layers independently.
 /// </summary>
 public sealed class MapLayer

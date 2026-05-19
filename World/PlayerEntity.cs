@@ -2,7 +2,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace WermyEngine.Overworld;
+namespace WermyEngine.World;
 
 /// <summary>
 /// The player's overworld avatar. Moves one tile at a time with smooth animation.

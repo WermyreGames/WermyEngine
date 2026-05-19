@@ -1,6 +1,6 @@
 using Microsoft.Xna.Framework;
 
-namespace WermyEngine.Overworld;
+namespace WermyEngine.World;
 
 /// <summary>
 /// Flyweight data object describing a type of tile.

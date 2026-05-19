@@ -1,18 +1,18 @@
-namespace WermyEngine.Overworld;
+namespace WermyEngine.World;
 
 /// <summary>
 /// A map composed of multiple stacked <see cref="MapLayer"/>s.
 /// Walkability is determined by scanning all layers: if any non-null tile
 /// at a position has <c>IsWalkable = false</c>, that cell is blocked.
 /// </summary>
-public sealed class OverworldMap
+public sealed class TileMap
 {
     public int Width  { get; }
     public int Height { get; }
 
     public IReadOnlyList<MapLayer> Layers { get; }
 
-    public OverworldMap(int width, int height, int layerCount)
+    public TileMap(int width, int height, int layerCount)
     {
         Width  = width;
         Height = height;

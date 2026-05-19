@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A MonoGame 2D game engine — tile system, entity framework, and screen management.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d09d832bf1002718c869bf896f951b188a26c34b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c49ff891d080c8a3a9919656ba47623d6eb3a986")]
 [assembly: System.Reflection.AssemblyProductAttribute("WermyEngine")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WermyEngine")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
