@@ -84,13 +84,13 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\nithi\\Desktop\\codingProjects\\WermyEngine\\WermyEngine.csproj",
+      "projectUniqueName": "C:\\Users\\nithi\\Desktop\\codingProjects\\WermyEngine\\WermyEngine.csproj",
       "projectName": "WermyEngine",
-      "projectPath": "c:\\Users\\nithi\\Desktop\\codingProjects\\WermyEngine\\WermyEngine.csproj",
+      "projectPath": "C:\\Users\\nithi\\Desktop\\codingProjects\\WermyEngine\\WermyEngine.csproj",
       "packagesPath": "C:\\Users\\nithi\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\nithi\\Desktop\\codingProjects\\WermyEngine\\obj\\",
+      "outputPath": "C:\\Users\\nithi\\Desktop\\codingProjects\\WermyEngine\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
